@@ -1,0 +1,85 @@
+{
+  "best_global_step": 22656,
+  "best_metric": 0.537770688533783,
+  "best_model_checkpoint": "./duolingo-sentiment-analysis-bert/checkpoint-22656",
+  "epoch": 3.0,
+  "eval_steps": 500,
+  "global_step": 33984,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "grad_norm": 14.724740982055664,
+      "learning_rate": 1.3333921845574389e-05,
+      "loss": 0.616,
+      "step": 11328
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.7795630103729861,
+      "eval_f1": 0.7682702602444946,
+      "eval_loss": 0.5626605153083801,
+      "eval_runtime": 90.7811,
+      "eval_samples_per_second": 499.113,
+      "eval_steps_per_second": 31.196,
+      "step": 11328
+    },
+    {
+      "epoch": 2.0,
+      "grad_norm": 11.766073226928711,
+      "learning_rate": 6.667255178907722e-06,
+      "loss": 0.5201,
+      "step": 22656
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.8001103509159126,
+      "eval_f1": 0.7969555151246286,
+      "eval_loss": 0.537770688533783,
+      "eval_runtime": 88.5239,
+      "eval_samples_per_second": 511.839,
+      "eval_steps_per_second": 31.991,
+      "step": 22656
+    },
+    {
+      "epoch": 3.0,
+      "grad_norm": 7.134523868560791,
+      "learning_rate": 5.885122410546139e-10,
+      "loss": 0.4357,
+      "step": 33984
+    },
+    {
+      "epoch": 3.0,
+      "eval_accuracy": 0.8114323548885456,
+      "eval_f1": 0.8081178383838499,
+      "eval_loss": 0.5422728061676025,
+      "eval_runtime": 89.3623,
+      "eval_samples_per_second": 507.037,
+      "eval_steps_per_second": 31.691,
+      "step": 33984
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 33984,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 3,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": true
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 3.576500687176704e+16,
+  "train_batch_size": 16,
+  "trial_name": null,
+  "trial_params": null
+}
